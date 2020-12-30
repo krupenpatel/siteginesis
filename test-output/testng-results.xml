@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9512" started-at="2020-12-30T12:07:22Z" finished-at="2020-12-30T12:07:31Z">
+  <suite name="Default suite" duration-ms="19314" started-at="2020-12-30T13:18:08Z" finished-at="2020-12-30T13:18:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9512" started-at="2020-12-30T12:07:22Z" finished-at="2020-12-30T12:07:31Z">
-      <class name="Test1.TcOne">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:Test1.TcOne@5b275dab]" name="setUP" is-config="true" duration-ms="6277" started-at="2020-12-30T17:37:22Z" finished-at="2020-12-30T17:37:28Z">
+    <test name="Default test" duration-ms="19314" started-at="2020-12-30T13:18:08Z" finished-at="2020-12-30T13:18:27Z">
+      <class name="testsuitA.Validateuser">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testsuitA.Validateuser@5b275dab]" name="setUP" is-config="true" duration-ms="6415" started-at="2020-12-30T18:48:08Z" finished-at="2020-12-30T18:48:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="testone()[pri:0, instance:Test1.TcOne@5b275dab]" name="testone" duration-ms="3212" started-at="2020-12-30T17:37:28Z" finished-at="2020-12-30T17:37:31Z">
+        <test-method status="PASS" signature="testValidateuser()[pri:0, instance:testsuitA.Validateuser@5b275dab]" name="testValidateuser" duration-ms="12888" started-at="2020-12-30T18:48:14Z" finished-at="2020-12-30T18:48:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testone -->
-      </class> <!-- Test1.TcOne -->
+        </test-method> <!-- testValidateuser -->
+      </class> <!-- testsuitA.Validateuser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -12,12 +12,13 @@ import Basepackge.Baseinit;
 
 public class MyLibrary extends Baseinit {
 
-	public static void signUP(String email,String pwd)
+	public static void signIN(String username,String password)
 	{
-		isElementPresent("lnk_logyourselfin_xpath").click();
-		isElementPresent("ip_email_xpath").sendKeys(email);
-		isElementPresent("ip_password_xpath").sendKeys(pwd);
-		isElementPresent("btn_signin_xpath").click();
+		isElementPresent("user_icon_xpath").click();
+		isElementPresent("lnk_login_xpath").click();
+		isElementPresent("ib_username_xpath").sendKeys(username);
+		isElementPresent("ib_password_xpath").sendKeys(password);
+		isElementPresent("btn_login_xpath").click();
 		logs.info("longin successfully");
 	}
 	
