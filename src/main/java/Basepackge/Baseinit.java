@@ -61,7 +61,7 @@ public class Baseinit {
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
 			logs.info("screen meximize and delete cookies");
-			data=new ExcelFileReader("./src/main/resources/testData/TestData.xlsx");
+			data=new ExcelFileReader("./src/main/resources/testData/sitegenisis.xlsx");
 			logs.info("Excel files are loded");
 			
 		}
