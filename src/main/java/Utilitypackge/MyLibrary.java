@@ -19,7 +19,6 @@ public class MyLibrary extends Baseinit {
 		isElementPresent("ib_username_xpath").sendKeys(username);
 		isElementPresent("ib_password_xpath").sendKeys(password);
 		isElementPresent("btn_login_xpath").click();
-		logs.info("longin successfully");
 	}
 	
 	public static void loggOF()
