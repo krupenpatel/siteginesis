@@ -23,9 +23,8 @@ public class MyLibrary extends Baseinit {
 	
 	public static void loggOF()
 	{
-		isElementPresent("lnk_loggoff_xpath").click();
-		isElementPresent("lnk_continue_xpath").click();
-		logs.info("logout successfully");
+		
+		isElementPresent("lnk_logout_xpath").click();
 		
 	}
 	

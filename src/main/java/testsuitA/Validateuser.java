@@ -1,5 +1,6 @@
 package testsuitA;
 
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -16,17 +17,20 @@ public class Validateuser extends Baseinit{
 	}
 	
 	@Test(dataProvider="getdata")
-	public void testValidateuser(String username, String password) throws Throwable
+	public void testValidateuser(String username,String password) throws Throwable
 	{
 		driver.get(storage.getProperty("url"));
 		
 		MyLibrary.signIN(username, password);
+		isElementPresent("user_icon_xpath").click();
 		
 		try {
-			if(isElementPresent(storage.getProperty("btn_logout_xpath")).isDisplayed())
+			
+			if(isElementPresent("lnk_logout_xpath").isDisplayed())
 			{
-				logs.info("user loged in successfully");
-				isElementPresent(storage.getProperty("btn_logout_xpath")).click();
+				
+				logs.info("user login successfully.");
+				MyLibrary.loggOF();
 			}
 			
 		} catch (Exception e) {
