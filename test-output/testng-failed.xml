@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testsuitA.GlobleSearch">
+      <class name="testsuitA.Validateuser">
         <methods>
+          <include name="testValidateuser"/>
           <include name="setUP"/>
-          <include name="testGlobleSearch"/>
         </methods>
-      </class> <!-- testsuitA.GlobleSearch -->
+      </class> <!-- testsuitA.Validateuser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
